@@ -1,0 +1,41 @@
+{
+  "name": "react-amap-components",
+  "version": "0.0.1",
+  "description": "A collection of react components could be used with react-amap.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "NODE_ENV=development BABEL_ENV=$NODE_ENV babel src -d dist",
+    "build:w": "NODE_ENV=development BABEL_ENV=$NODE_ENV babel -w src -d dist",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "amap",
+    "react",
+    "components",
+    "react-amap"
+  ],
+  "author": "joshua7v <joshua7v@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@joshua7v/geoex": "0.0.12",
+    "@joshua7v/humanize": "0.0.4",
+    "@joshua7v/jex": "0.0.10",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-react-app": "^3.1.0"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      "babel-plugin-transform-es2015-modules-commonjs"
+    ]
+  }
+}
