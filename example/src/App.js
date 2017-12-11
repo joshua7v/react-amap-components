@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Map } from '@joshua7v/react-amap';
-import { Polygon, Circle, MouseTool } from './lib';
+import { Polygon, Circle, MouseTool } from 'react-amap-components';
 import uuid from 'uuid/v4';
 
 export default class App extends Component {

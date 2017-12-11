@@ -10,6 +10,7 @@
     "react-scripts": "1.0.17",
     "uuid": "^3.1.0"
   },
+  "homepage": "https://joshua7v.github.io/react-amap-components",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
