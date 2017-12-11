@@ -12,6 +12,7 @@
 
 # production
 /dist
+/example/build
 /example/node_modules
 
 # misc
